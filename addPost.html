@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Scripts.js"></script>
+<title>Add Post</title>
+</head>
+<header>
+<h1><br>Welcome!</h1>
+<p>Please Add Post</p>
+</header>
+
+<body>
+<section class="addpost">
+<form class="f" action="addPost.php" onsubmit="return preventDefault()" method="post">
+<h1>Add Post</h1>
+Title:<br>
+<input id="titlebox" class="titlebox" type="text" name="title" value="Title"/><br>
+<br>Post Content: <br>
+<input id="postbox" class="postbox" type="text" name="post" value="write something here..."/><br>
+<br><input class="loginpbutton" type="submit" value="Post" />
+<button class='loginpbutton' type='button' onclick='clearall()'>Clear</button>
+</form>
+</section>
+</body>
+
+<footer>
+Updated by Yuanxu Han, 3rd May 2020
+</footer>
+
+</html>

@@ -1,0 +1,219 @@
+*{
+	font-family:"Arial";
+}
+header{
+	line-height:40px;
+	text-align: left;
+	background-image:url(headerbg.jpg);
+	color:black;
+	width:100%;
+}
+header h1{
+	font-size:50px;
+	font-family:"Fantasy";
+	text-shadow:#fff 2px 0 0, #fff 0 2px 0, #fff -2px 0 0, #fff 0 -2px 0;
+}
+header p{
+	font-size:25px;
+	text-shadow:#fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
+}
+nav.navbar{
+	line-height:50px;
+	text-align:center;
+	background-color:#00ccff;
+	width:100%;
+}
+header nav a{
+	font-size:22px;
+	text-decoration:none;
+	font-weight:bold;
+	display:inline;
+	padding:0 20px;
+	color:white
+}
+header nav a:link{
+	color:white;
+}
+header nav a:active{
+	text-decoration:blink;
+}
+header nav a:hover{
+	color:#006699;
+}
+header nav a:visited{
+	text-decoration:none;
+}
+.loginbutton{
+	float:right;
+	float:top;
+	margin-left:0px;
+	background-color:white;
+	color:gray;
+	font-size:20px;
+	border-color:gray;
+	border-radius:4px;
+	font-weight:bold;
+}
+.loginbutton:hover{
+	background-color:gray;
+	color:white;
+	font-size:20px;
+	border-color:black;
+	border-radius:4px;
+	font-weight:bold;
+}
+.loginpbutton{
+	margin-left:0px;
+	background-color:white;
+	color:gray;
+	font-size:20px;
+	border-color:gray;
+	border-radius:4px;
+	font-weight:bold;
+}
+.loginpbutton:hover{
+	background-color:gray;
+	color:white;
+	font-size:20px;
+	border-color:black;
+	border-radius:4px;
+	font-weight:bold;
+}
+.addpost{
+	margin-left:650px;
+	margin-top:50px;
+	width:20%;
+}
+#titlebox{
+	padding:5px 0px;
+	padding-right:30px;
+}
+#postbox{
+	padding:5px 0px;
+	padding-right:30px;
+	padding-bottom:100px;
+}
+body{
+	background-color:#ffffff;
+}
+.viewBlog{
+	text-decoration:none;
+	background-color:#ffffff;
+	text-align:center;
+}
+.title{
+	text-align:center;
+}
+.time{
+	text-align:right;
+}
+.theblog{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	padding-left:40px;
+	padding-right:40px;
+}
+.loginbox{
+	margin-left:650px;
+	margin-top:50px;
+	width:20%;
+}
+.asidelogin{
+	margin-left:0px;
+	margin-top:100px;
+	width:20%;
+	float:left;
+}
+.f{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	padding-left:40px;
+	padding-right:40px;
+}
+.tbox{
+	display:none;
+}
+.aboutme section{
+	text-decoration:none;
+	background-color:#ffffff;
+	float:left;
+	margin-left:550px;
+}
+.experience section{
+	text-decoration:none;
+	background-color:#ffffff;
+	float:left;
+	margin-left:450px;
+	margin-right:450px;
+}
+.aboutmehead h1{
+	margin-left:140px;
+}
+.experiencehead h1{
+	margin-left:690px;
+}
+.Skillshead h1{
+	margin-left:120px;
+}
+.Skills h1{
+	font-size:26px;
+}
+.SaA{
+	margin-left:440px;
+}
+.selfie img{
+	width:150px;
+	height:200px;
+	margin-top:90px;
+	margin-left:20px;
+	float:left;
+}
+.aboutme hgroup h1{
+	text-align:center;
+}
+.indexarticle{
+	width:60%;
+	float:left;
+}
+.albuminfo{
+	font-weight:15px;
+	margin-left:230px;
+}
+.albuminfo ul li a{
+	color:black;
+	text-decoration:none;
+}
+.albuminfo ul li a:link{
+	color:black;
+}
+.albuminfo ul li a:active{
+	text-decoration:blink;
+}
+.albuminfo ul li a:hover{
+	color:grey;
+}
+.albuminfo ul li a:visited{
+	text-decoration:none;
+}
+.album figure img{
+	border:5px solid blue;
+	width:250px;
+	margin-left:200px;
+	margin-top:20px;
+	height:250px;
+}
+.albuminfo ul{
+	list-style:none;
+}
+footer{
+	background-color:#006699;
+	position:fixed;
+	bottom:0px;
+	line-height:30px;
+	float:bottom;
+	width:100%;
+	color:white;
+}
+
